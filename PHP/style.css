@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.bg{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    background-repeat: repeat-x;
+    opacity: 0.9;
+    
+}
+
+#submsg{
+    color: rgb(142, 241, 142);
+}
+
+.maincontainer{
+    padding: 35px;
+    /* background: rgb(255, 189, 189); */
+    
+}
+h1{
+    font-size: 40px;
+    margin: 20px;
+    color: white;
+    text-align: center;
+    
+}
+p{
+    font-size: 30px;
+    margin: 20px;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+.container{
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    /* background: rgb(231, 130, 219); */
+    border-radius: 50px;
+   
+}
+   
+
+.container spam{
+    display: block;
+    color: white;
+}
+
+.container input {
+    margin: 22px auto 22px;
+    display: block;
+    width: 70%;
+    padding: 15px ;
+    border-radius: 0px 100px 0px 100px;
+
+    background: rgb(255, 189, 189);
+    color: black ;
+    border: none;
+}
+.btn{
+    margin: 12px auto 12px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 0px 100px 0px 100px;
+
+    background: rgb(255, 189, 189);
+    color: white;
+    border: none;
+    cursor: pointer;
+ 
+}
